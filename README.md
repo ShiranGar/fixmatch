@@ -29,6 +29,7 @@ fixmatch/
 │
 ├── FixMatch.ipynb        # Main implementation notebook
 ├── README.md            # This file
+├── mymodel.weights.h5   # Saved model weights
 ```
 
 ## Implementation Details
@@ -56,7 +57,7 @@ fixmatch/
 1. Open `FixMatch.ipynb` in Jupyter Notebook or VS Code
 2. Run all cells sequentially
 3. Monitor training progress through loss and accuracy plots
-4. Final model will be saved as 'myModel.h5'
+4. Best model weights will be saved as 'model.weights.h5'
 
 ## Results Visualization
 
